@@ -1,9 +1,9 @@
 import os, sys
 from PIL import Image
 
-for infile in sys.argv[1:]:
+for infile in sys.argv[2:]:
     f, e = os.path.splitext(infile)
-    outfile = f + ".gif"
+    outfile = f + ".%s" % sys.argv[1]
     im = Image.open(infile)
 
     if infile != outfile:
