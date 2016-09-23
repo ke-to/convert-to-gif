@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*- 
+#######################
+# 使用する際のコマンド例
+# $ python convert.py jpg xxx.gif
+# $ python スクリプト名 拡張子 画像パス（半角スペース区切りで複数可）
+#######################
+
 import os, sys
 from PIL import Image
 
