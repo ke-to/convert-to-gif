@@ -18,6 +18,6 @@ for infile in sys.argv[2:]:
         try:
             if im.mode != "RGB":
                 im = im.convert("RGB")
-            im.save(outfile)
+            im.save(outfile, quality=100, optimize=True)
         except IOError:
             print "cannot convert", infile
