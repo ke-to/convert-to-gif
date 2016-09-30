@@ -3,6 +3,7 @@
 # 使用する際のコマンド例
 # $ python convert.py jpg xxx.gif
 # $ python スクリプト名 拡張子 画像パス（半角スペース区切りで複数可）
+# PILが無い場合は $ python -m pip install Pillow
 #######################
 
 import os, sys
